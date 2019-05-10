@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <style>
             .container {
                 text-align: center;
             }
             svg {
-                color: white;
+                background-color: white;
             }
         </style>
         <script src="draw2.js"></script>
         <title>Draw</title>
     </head>
-    <body style="color:purple;">
+    <body style="background-color:purple;">
         <div class="container">
             <h1>CSCI E-33a Draw</h1>
             <div id="options" class="row">
@@ -36,7 +36,7 @@
                     <option value=9>9</option>
                     <option value=10>10</option>
                 </select>
-                <button id="erase">Erase</button>
+                <button class="btn" id="erase">Erase</button>
             </div>
         </div>
         <svg id="draw">

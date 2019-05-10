@@ -18,12 +18,12 @@ class WebpageTests(unittest.TestCase):
     def test_body(self):
         driver.get(file_uri("draw.html"))
         body = driver.find_element_by_tag_name("body")
-        self.assertEqual(body.value_of_css_property("color"), "rgba(128, 0, 128, 1)")
+        self.assertEqual(body.value_of_css_property("background-color"), "rgba(128, 0, 128, 1)")
 
     def test_container(self):
         driver.get(file_uri("draw.html"))
         svg = driver.find_element_by_tag_name("svg")
-        self.assertEqual(svg.value_of_css_property("color"), "rgba(255, 255, 255, 1)")
+        self.assertEqual(svg.value_of_css_property("background-color"), "rgba(255, 255, 255, 1)")
 
 if __name__ == "__main__":
     unittest.main()

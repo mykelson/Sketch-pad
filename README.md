@@ -1,5 +1,5 @@
-# Draw 
-Draw is a web page that utilizes HTML, SVG, JavaScript's D3 and JavaScript coding to implement a drawing pad.
+# Sketch Pad
+Sketch Pad is a web page that utilizes HTML, SVG, JavaScript's D3 and JavaScript coding to implement a sketch pad.
 
 ## Project status
 Project development has been temporarily paused.
